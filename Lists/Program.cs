@@ -36,15 +36,15 @@ static void printLetters(List<string> wordList)
             Console.WriteLine(word);
         }
     }
-}
+
 
 //Modify your code to prompt the user to enter the word length for the search.
 
 Console.WriteLine("Enter a word length: ");
-string number = Console.ReadLine();
-int numChars = int.Parse(input);
+// string number = Console.ReadLine();
+// int numChars = int.Parse(input);
 
-printLettersWords(wordList, numChars);
+// printLettersWords(wordList, numChars);
 
 static void printLettersWords(List<string> wordList, int length)
 {
@@ -55,4 +55,5 @@ static void printLettersWords(List<string> wordList, int length)
             Console.WriteLine(word);
         }
     }
+}
 }
